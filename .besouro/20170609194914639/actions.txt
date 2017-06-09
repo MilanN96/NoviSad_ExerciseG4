@@ -67,3 +67,10 @@ RefactoringAction 1497031790283 TestBowling.java ADD void TestStrike()/2 METHOD
 RefactoringAction 1497031847516 BowlingGame.java ADD void addFrame(Frame)/2 METHOD
 RefactoringAction 1497031863080 BowlingGame.java REMOVE addFrame(Frame)/2 METHOD
 EditAction 1497031907181 BowlingGame.java 845 4 2 0
+RefactoringAction 1497031933353 TestBowling.java RENAME TestStrike()/2=>void testIfFramesAreAddedCorrectly() METHOD
+RefactoringAction 1497032004959 TestBowling.java REMOVE testIfFramesAreAddedCorrectly() METHOD
+RefactoringAction 1497032023499 TestBowling.java ADD void testSetBonusThrowsFrameAtTheEndOfTheGame() METHOD
+RefactoringAction 1497032092098 TestBowling.java REMOVE testSetBonusThrowsFrameAtTheEndOfTheGame() METHOD
+RefactoringAction 1497032105137 TestBowling.java ADD void testIfThereAreMoreThan10Frames() METHOD
+RefactoringAction 1497032167487 BowlingGame.java ADD void helperAddAllFrames(BowlingGame, int) METHOD
+EditAction 1497032173215 TestBowling.java 858 5 10 4

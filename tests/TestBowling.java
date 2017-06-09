@@ -27,6 +27,12 @@ public class TestBowling {
 		Frame fr = new Frame(10,0);
 		assertEquals(true,fr.isStrike());
 	}
+	@Test(expected = BowlingException.class)
+	public void testIfThereAreMoreThan10Frames() throws BowlingException {
+		BowlingGame bg = new BowlingGame();
+		helperAddAllFrames(bg, 15);
+	}
+
 	
 	
 	
