@@ -61,3 +61,9 @@ RefactoringAction 1497031685912 Frame.java ADD void setFrameScore(int) METHOD
 RefactoringAction 1497031723970 Frame.java ADD Frame(int, int)/2 METHOD
 RefactoringAction 1497031731000 Frame.java REMOVE Frame(int, int)/2 METHOD
 EditAction 1497031733253 Frame.java 1212 8 14 0
+UnitTestCaseAction 1497031737142 TestBowling.java OK
+UnitTestSessionAction 1497031737146 TestBowling.java OK
+RefactoringAction 1497031790283 TestBowling.java ADD void TestStrike()/2 METHOD
+RefactoringAction 1497031847516 BowlingGame.java ADD void addFrame(Frame)/2 METHOD
+RefactoringAction 1497031863080 BowlingGame.java REMOVE addFrame(Frame)/2 METHOD
+EditAction 1497031907181 BowlingGame.java 845 4 2 0
