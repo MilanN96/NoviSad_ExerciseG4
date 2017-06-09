@@ -6,7 +6,7 @@ public class Frame {
 	
 	public Frame(int firstThrow, int secondThrow) throws BowlingException {
 		if (firstThrow + secondThrow > 10)
-			throw new BowlingException("Frame score cannot be higher than 10");
+			throw new BowlingException("Frame score ne moze biti veci od 10");
 
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
