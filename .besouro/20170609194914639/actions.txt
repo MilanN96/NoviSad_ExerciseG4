@@ -96,3 +96,4 @@ RefactoringAction 1497032497915 TestBowling.java RENAME test()/2=>void testBonus
 RefactoringAction 1497032637889 BowlingGame.java ADD int ukScore FIELD
 FileOpenedAction 1497032936080 BowlingException.java 126 1 1 0
 EditAction 1497033037915 TestBowling.java 806 5 10 4
+EditAction 1497033040988 BowlingGame.java 1501 5 3 0
