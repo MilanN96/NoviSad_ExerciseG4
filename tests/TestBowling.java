@@ -38,11 +38,22 @@ public class TestBowling {
 		assertEquals(8,bg.score());
 	}
 	@Test
-	public void testIfFramesAreAddedCorrectly() throws BowlingException {
+	public void testIAddFrame() throws BowlingException {
 		BowlingGame bg = new BowlingGame();
 		 bg.addFrame(new Frame(5, 3));
 		assertEquals(1, bg.getFrames().size());
 	}
+	@Test(expected = BowlingException.class)
+	public void testFrameover() throws BowlingException {
+		BowlingGame bg = new BowlingGame();
+		for(int i=0 ; i<10;i++)
+		{
+			bg.addFrame(new Frame(5, 3));
+		}
+		assertEquals(1, bg.getFrames().size());
+	}
+	
+	
 	/*	
 		
 	}

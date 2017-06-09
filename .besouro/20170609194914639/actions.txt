@@ -148,3 +148,13 @@ RefactoringAction 1497034239833 BowlingGame.java ADD void setFrames(List<Frame>)
 EditAction 1497034246174 TestBowling.java 1374 7 15 6
 CompilationAction 1497034249069 TestBowling.java
 EditAction 1497034249410 BowlingGame.java 1648 7 6 0
+UnitTestCaseAction 1497034255676 TestBowling.java FAIL
+UnitTestSessionAction 1497034255678 TestBowling.java FAIL
+UnitTestCaseAction 1497034279556 TestBowling.java FAIL
+UnitTestSessionAction 1497034279559 TestBowling.java FAIL
+RefactoringAction 1497034362895 TestBowling.java RENAME testIfFramesAreAddedCorrectly()=>void testI() METHOD
+RefactoringAction 1497034365466 TestBowling.java RENAME testI()=>void testIAddFrame() METHOD
+RefactoringAction 1497034472110 TestBowling.java ADD void testFrameIsHigherThan10()/2 METHOD
+RefactoringAction 1497034482187 TestBowling.java RENAME testFrameIsHigherThan10()/2=>void testFrame() METHOD
+RefactoringAction 1497034488232 TestBowling.java RENAME testFrame()=>void testFrameover() METHOD
+EditAction 1497034608471 TestBowling.java 1620 8 18 7
