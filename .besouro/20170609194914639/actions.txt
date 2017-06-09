@@ -196,3 +196,5 @@ UnitTestCaseAction 1497035463515 TestBowling.java OK
 UnitTestSessionAction 1497035463517 TestBowling.java OK
 RefactoringAction 1497035490008 TestBowling.java ADD void testBonus() METHOD
 EditAction 1497035528876 TestBowling.java 1629 9 18 7
+CompilationAction 1497035533066 TestBowling.java
+CompilationAction 1497035547036 TestBowling.java
