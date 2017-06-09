@@ -26,9 +26,10 @@ public class TestBowling {
 		assertEquals(true,fr.isStrike());
 	}
 	@Test 
-	public void testBonus() throws BowlingException {
+	public void testScore() throws BowlingException {
 		BowlingGame bg = new BowlingGame();
-		Frame fr = new Frame(5,5);
+		Frame fr = new Frame(5,3);
+		assertEquals(8,bg.score());
 		
 		
 	}
