@@ -25,14 +25,31 @@ public class TestBowling {
 		Frame fr = new Frame(10,0);
 		assertEquals(true,fr.isStrike());
 	}
+	@Test(expected = BowlingException.class)
+	public void testFrameIsHigherThan10() throws BowlingException {
+		Frame fr = new Frame(5, 6);
+	}
+	
+	
 	@Test 
 	public void testScore() throws BowlingException {
 		BowlingGame bg = new BowlingGame();
 		Frame fr = new Frame(5,3);
 		assertEquals(8,bg.score());
-		
+	}
+	
+	/*	
 		
 	}
+	@Test 
+	public void testBonus() throws BowlingException {
+		BowlingGame bg = new BowlingGame();
+		Frame fr = new Frame(5,3);
+		assertEquals(8,bg.score());
+		
+		
+	}*/
+	
 	
 	
 

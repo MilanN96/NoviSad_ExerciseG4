@@ -112,3 +112,25 @@ UnitTestSessionAction 1497033184896 TestBowling.java FAIL
 UnitTestCaseAction 1497033482416 TestBowling.java FAIL
 UnitTestSessionAction 1497033482416 TestBowling.java FAIL
 EditAction 1497033657787 TestBowling.java 840 5 11 5
+RefactoringAction 1497033774894 TestBowling.java ADD void testScore()/2 METHOD
+RefactoringAction 1497033779930 TestBowling.java RENAME testScore()/2=>void testBonus() METHOD
+RefactoringAction 1497033816479 TestBowling.java ADD void testWhenScoreInFrameIsHigherThan10() METHOD
+CompilationAction 1497033818745 TestBowling.java
+CompilationAction 1497033830906 TestBowling.java
+UnitTestCaseAction 1497033832001 TestBowling.java FAIL
+UnitTestSessionAction 1497033832002 TestBowling.java FAIL
+RefactoringAction 1497033854197 TestBowling.java REMOVE testBonus() METHOD
+RefactoringAction 1497033854199 TestBowling.java REMOVE testScore() METHOD
+UnitTestCaseAction 1497033860074 TestBowling.java OK
+UnitTestSessionAction 1497033860077 TestBowling.java OK
+RefactoringAction 1497033873296 TestBowling.java RENAME testWhenScoreInFrameIsHigherThan10()=>void testFrameIsHigherThan10() METHOD
+RefactoringAction 1497033893906 TestBowling.java ADD void testScore() METHOD
+RefactoringAction 1497033893919 TestBowling.java ADD void testBonus() METHOD
+RefactoringAction 1497033895485 TestBowling.java REMOVE testBonus() METHOD
+CompilationAction 1497033898184 TestBowling.java
+UnitTestCaseAction 1497033917594 TestBowling.java FAIL
+UnitTestSessionAction 1497033917595 TestBowling.java FAIL
+CompilationAction 1497033929874 TestBowling.java
+UnitTestCaseAction 1497033930956 TestBowling.java FAIL
+UnitTestSessionAction 1497033930958 TestBowling.java FAIL
+EditAction 1497033979547 TestBowling.java 1177 6 12 5
