@@ -10,7 +10,7 @@ public class Frame {
 
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
-		//frameScore = this.firstThrow + this.secondThrow;
+		frameScore = this.firstThrow + this.secondThrow;
 	}
 	
 	public int getFirstThrow() {
