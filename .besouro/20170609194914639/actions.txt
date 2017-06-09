@@ -12,3 +12,12 @@ RefactoringAction 1497031175178 Frame.java ADD int frame FIELD
 RefactoringAction 1497031177715 Frame.java RENAME frame=>int frameScore FIELD
 CompilationAction 1497031187353 Frame.java
 EditAction 1497031191674 TestBowling.java 420 2 4 2
+CompilationAction 1497031195203 TestBowling.java
+RefactoringAction 1497031209200 TestBowling.java REMOVE test()/2 METHOD
+CompilationAction 1497031214252 TestBowling.java
+UnitTestCaseAction 1497031215058 TestBowling.java OK
+UnitTestSessionAction 1497031215060 TestBowling.java OK
+RefactoringAction 1497031234336 TestBowling.java ADD void Tes FIELD
+RefactoringAction 1497031236379 TestBowling.java RENAME Tes=>void TestSpare FIELD
+RefactoringAction 1497031238904 TestBowling.java RENAME TestSpare=>void TestSpare() METHOD
+EditAction 1497031297202 TestBowling.java 387 2 4 2
