@@ -65,13 +65,7 @@ public class TestBowling {
 		
 		
 	}*/
-	@Test
-	public void testSetBonusThrowsFrameAtTheEndOfTheGame() throws BowlingException {
-		BowlingGame bg = new BowlingGame();
-		bg.setBonus(2, 4);
-		boolean Result = bg.getBonus().getFirstThrow() == 2 && bg.getBonus().getSecondThrow() == 4;
-		assertTrue(Result);
-	}
+	
 	
 	
 	

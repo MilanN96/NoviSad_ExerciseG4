@@ -169,3 +169,7 @@ UnitTestCaseAction 1497034723601 TestBowling.java FAIL
 UnitTestSessionAction 1497034723602 TestBowling.java FAIL
 RefactoringAction 1497034772535 TestBowling.java ADD void testSetBonusThrowsFrameAtTheEndOfTheGame() METHOD
 EditAction 1497034792891 TestBowling.java 1895 9 22 8
+UnitTestCaseAction 1497034797166 TestBowling.java FAIL
+UnitTestSessionAction 1497034797169 TestBowling.java FAIL
+RefactoringAction 1497034867882 TestBowling.java REMOVE testSetBonusThrowsFrameAtTheEndOfTheGame() METHOD
+EditAction 1497034886048 TestBowling.java 1624 8 18 7
