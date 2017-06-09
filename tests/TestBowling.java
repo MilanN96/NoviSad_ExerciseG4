@@ -37,7 +37,12 @@ public class TestBowling {
 		Frame fr = new Frame(5,3);
 		assertEquals(8,bg.score());
 	}
-	
+	@Test
+	public void testIfFramesAreAddedCorrectly() throws BowlingException {
+		BowlingGame bg = new BowlingGame();
+		 bg.addFrame(new Frame(5, 3));
+		assertEquals(1, bg.getFrames().size());
+	}
 	/*	
 		
 	}

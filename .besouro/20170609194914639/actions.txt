@@ -134,3 +134,15 @@ CompilationAction 1497033929874 TestBowling.java
 UnitTestCaseAction 1497033930956 TestBowling.java FAIL
 UnitTestSessionAction 1497033930958 TestBowling.java FAIL
 EditAction 1497033979547 TestBowling.java 1177 6 12 5
+UnitTestCaseAction 1497033984110 TestBowling.java FAIL
+UnitTestSessionAction 1497033984123 TestBowling.java FAIL
+UnitTestCaseAction 1497034012303 TestBowling.java FAIL
+UnitTestSessionAction 1497034012304 TestBowling.java FAIL
+UnitTestCaseAction 1497034020118 TestBowling.java FAIL
+UnitTestSessionAction 1497034020120 TestBowling.java FAIL
+RefactoringAction 1497034108072 BowlingGame.java ADD void setBonus(int, int)/2 METHOD
+RefactoringAction 1497034132143 BowlingGame.java REMOVE setBonus(int, int)/2 METHOD
+RefactoringAction 1497034201382 TestBowling.java ADD void testIfFramesAreAddedCorrectly() METHOD
+RefactoringAction 1497034239825 BowlingGame.java ADD List<Frame> getFrames() METHOD
+RefactoringAction 1497034239833 BowlingGame.java ADD void setFrames(List<Frame>) METHOD
+EditAction 1497034246174 TestBowling.java 1374 7 15 6
