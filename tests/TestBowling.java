@@ -15,7 +15,7 @@ public class TestBowling {
 	@Test 
 	public void TestSpare() throws BowlingException {
 		Frame fr = new Frame(6,4);
-		assertEquals(5,fr.isSpare());
+		assertEquals(10,fr.isSpare());
 	}
 	
 

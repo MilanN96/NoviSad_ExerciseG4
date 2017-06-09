@@ -27,3 +27,6 @@ RefactoringAction 1497031310734 TestBowling.java ADD void TestSpare()/2 METHOD
 RefactoringAction 1497031342779 TestBowling.java REMOVE TestSpare()/2 METHOD
 EditAction 1497031369588 Frame.java 806 6 8 0
 EditAction 1497031379399 TestBowling.java 390 2 4 2
+UnitTestCaseAction 1497031384177 TestBowling.java FAIL
+UnitTestSessionAction 1497031384180 TestBowling.java FAIL
+EditAction 1497031396167 TestBowling.java 391 2 4 2
