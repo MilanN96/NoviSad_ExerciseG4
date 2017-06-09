@@ -17,5 +17,6 @@ public class TestBowling {
 		Frame fr = new Frame(6,4);
 		assertEquals(5,fr.isSpare());
 	}
+	
 
 }
