@@ -46,11 +46,11 @@ public class TestBowling {
 	@Test(expected = BowlingException.class)
 	public void testFrameover() throws BowlingException {
 		BowlingGame bg = new BowlingGame();
-		for(int i=0 ; i<10;i++)
+		for(int i=0 ; i<11;i++)
 		{
 			bg.addFrame(new Frame(5, 3));
 		}
-		assertEquals(10, bg.getFrames().size());
+		assertEquals(11, bg.getFrames().size());
 	}
 	
 	
