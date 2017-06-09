@@ -77,3 +77,22 @@ EditAction 1497032173215 TestBowling.java 858 5 10 4
 EditAction 1497032177864 BowlingGame.java 1055 5 3 0
 CompilationAction 1497032180781 TestBowling.java
 EditAction 1497032180955 Frame.java 1211 8 14 0
+RefactoringAction 1497032204564 BowlingGame.java REMOVE helperAddAllFrames(BowlingGame, int) METHOD
+RefactoringAction 1497032209328 TestBowling.java REMOVE testIfThereAreMoreThan10Frames() METHOD
+RefactoringAction 1497032373264 BowlingGame.java ADD void getBonus FIELD
+RefactoringAction 1497032375320 BowlingGame.java RENAME getBonus=>void getBonus() METHOD
+RefactoringAction 1497032454983 TestBowling.java ADD void TestStrike()/2 METHOD
+RefactoringAction 1497032459515 TestBowling.java RENAME TestStrike()/2=><initializer /1> null
+RefactoringAction 1497032475550 TestBowling.java RENAME <initializer /1>=>void bonus() METHOD
+RefactoringAction 1497032479579 TestBowling.java RENAME bonus()=>void bonusU() METHOD
+RefactoringAction 1497032481124 TestBowling.java RENAME bonusU()=>void b() METHOD
+RefactoringAction 1497032482189 TestBowling.java RENAME b()=><initializer /1> null
+RefactoringAction 1497032486220 TestBowling.java RENAME TestStrike()=>void testStrike() METHOD
+RefactoringAction 1497032488258 TestBowling.java RENAME TestSpare2()=>void testSpare2() METHOD
+RefactoringAction 1497032489792 TestBowling.java RENAME TestSpare()=>void testSpare() METHOD
+RefactoringAction 1497032493339 TestBowling.java RENAME <initializer /1>=>void tes() METHOD
+RefactoringAction 1497032494883 TestBowling.java RENAME tes()=>void test()/2 METHOD
+RefactoringAction 1497032497915 TestBowling.java RENAME test()/2=>void testBonus() METHOD
+RefactoringAction 1497032637889 BowlingGame.java ADD int ukScore FIELD
+FileOpenedAction 1497032936080 BowlingException.java 126 1 1 0
+EditAction 1497033037915 TestBowling.java 806 5 10 4

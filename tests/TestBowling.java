@@ -8,30 +8,31 @@ public class TestBowling {
 	public void test() throws BowlingException{
 		//fail("Not yet implemented");
 		Frame fr = new Frame(1,4);
-		assertEquals(5,fr.score());
-		
-		
+		assertEquals(5,fr.score());	
 	}
 	@Test 
-	public void TestSpare() throws BowlingException {
+	public void testSpare() throws BowlingException {
 		Frame fr = new Frame(6,4);
 		assertEquals(true,fr.isSpare());
 	}
 	@Test 
-	public void TestSpare2() throws BowlingException {
+	public void testSpare2() throws BowlingException {
 		Frame fr = new Frame(6,3);
 		assertEquals(false,fr.isSpare());
 	}
 	@Test 
-	public void TestStrike() throws BowlingException {
+	public void testStrike() throws BowlingException {
 		Frame fr = new Frame(10,0);
 		assertEquals(true,fr.isStrike());
 	}
-	@Test(expected = BowlingException.class)
-	public void testIfThereAreMoreThan10Frames() throws BowlingException {
+	@Test 
+	public void testBonus() throws BowlingException {
 		BowlingGame bg = new BowlingGame();
-		helperAddAllFrames(bg, 15);
+		Frame fr = new Frame(5,5);
+		
+		
 	}
+	
 
 	
 	
