@@ -190,3 +190,9 @@ EditAction 1497035083167 Frame.java 1213 8 13 0
 UnitTestCaseAction 1497035087125 TestBowling.java FAIL
 UnitTestSessionAction 1497035087128 TestBowling.java FAIL
 EditAction 1497035223136 Frame.java 1211 8 14 0
+UnitTestCaseAction 1497035406004 TestBowling.java FAIL
+UnitTestSessionAction 1497035406009 TestBowling.java FAIL
+UnitTestCaseAction 1497035463515 TestBowling.java OK
+UnitTestSessionAction 1497035463517 TestBowling.java OK
+RefactoringAction 1497035490008 TestBowling.java ADD void testBonus() METHOD
+EditAction 1497035528876 TestBowling.java 1629 9 18 7

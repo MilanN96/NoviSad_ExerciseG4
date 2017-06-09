@@ -21,5 +21,3 @@
 1497033860077 test-last 1 756 false
 1497033860078 test-first 3 756 true
 1497033860079 test-last 1 756 false
-1497033860080 test-last 1 756 false
-1497033860081 test-last 1 756 false

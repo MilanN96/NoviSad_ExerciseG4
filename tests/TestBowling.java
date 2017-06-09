@@ -34,7 +34,8 @@ public class TestBowling {
 	@Test 
 	public void testScore() throws BowlingException {
 		BowlingGame bg = new BowlingGame();
-		Frame fr = new Frame(5,3);
+		bg.addFrame(new Frame(5,3));
+		//Frame fr = new Frame(5,3);
 		assertEquals(8,bg.score());
 	}
 	@Test
@@ -54,17 +55,17 @@ public class TestBowling {
 	}
 	
 	
-	/*	
+	
 		
-	}
+	
 	@Test 
 	public void testBonus() throws BowlingException {
 		BowlingGame bg = new BowlingGame();
-		Frame fr = new Frame(5,3);
-		assertEquals(8,bg.score());
+		bg.addFrame((new Frame(10,0));
 		
 		
-	}*/
+		
+	}
 	
 	
 	
