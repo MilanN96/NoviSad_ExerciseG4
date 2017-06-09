@@ -146,3 +146,5 @@ RefactoringAction 1497034201382 TestBowling.java ADD void testIfFramesAreAddedCo
 RefactoringAction 1497034239825 BowlingGame.java ADD List<Frame> getFrames() METHOD
 RefactoringAction 1497034239833 BowlingGame.java ADD void setFrames(List<Frame>) METHOD
 EditAction 1497034246174 TestBowling.java 1374 7 15 6
+CompilationAction 1497034249069 TestBowling.java
+EditAction 1497034249410 BowlingGame.java 1648 7 6 0

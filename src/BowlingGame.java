@@ -25,6 +25,7 @@ public class BowlingGame {
 	// Sets the bonus throws at the end of the game
 	public void setBonus(int firstThrow, int secondThrow) {
 		//to be implemented
+		
 	}
 	public Frame getBonus()
 	{
@@ -56,5 +57,16 @@ public class BowlingGame {
 		return ukScore;
 		
 	}
+
+
+	public List<Frame> getFrames() {
+		return frames;
+	}
+
+
+	public void setFrames(List<Frame> frames) {
+		this.frames = frames;
+	}
+	
 	
 }
