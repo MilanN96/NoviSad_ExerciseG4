@@ -48,12 +48,12 @@ public class BowlingGame {
 			ukScore += frames.get(i).score();
 		}
 		
-		/*if (bonus != null) {
+		if (bonus != null) {
 			if (frames.get(9).isSpare())
 				ukScore += bonus.getFirstThrow();
 			else if (frames.get(9).isStrike())
 				ukScore += bonus.score();
-		}*/
+		}
 		return ukScore;
 		
 	}
