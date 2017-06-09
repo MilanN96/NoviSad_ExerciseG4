@@ -3,9 +3,14 @@ public class Frame {
 	private int secondThrow;
 	private int frameScore;
 	
-	public Frame(int firstThrow, int secondThrow){
+	
+	public Frame(int firstThrow, int secondThrow) throws BowlingException {
+		if (firstThrow + secondThrow > 10)
+			throw new BowlingException("Frame score cannot be higher than 10");
+
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
+		frameScore = this.firstThrow + this.secondThrow;
 	}
 	
 	public int getFirstThrow() {
@@ -43,5 +48,13 @@ public class Frame {
 		}
 		return false;
 		
+	}
+
+	public int getFrameScore() {
+		return frameScore;
+	}
+
+	public void setFrameScore(int frameScore) {
+		this.frameScore = frameScore;
 	}
 }

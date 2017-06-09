@@ -54,3 +54,10 @@ RefactoringAction 1497031595098 TestBowling.java RENAME TestStrike()/2=>void Tes
 RefactoringAction 1497031604132 TestBowling.java REMOVE TestStrike2() METHOD
 EditAction 1497031635978 TestBowling.java 666 4 8 4
 EditAction 1497031638971 Frame.java 876 6 10 0
+UnitTestCaseAction 1497031642694 TestBowling.java OK
+UnitTestSessionAction 1497031642697 TestBowling.java OK
+RefactoringAction 1497031685888 Frame.java ADD int getFrameScore() METHOD
+RefactoringAction 1497031685912 Frame.java ADD void setFrameScore(int) METHOD
+RefactoringAction 1497031723970 Frame.java ADD Frame(int, int)/2 METHOD
+RefactoringAction 1497031731000 Frame.java REMOVE Frame(int, int)/2 METHOD
+EditAction 1497031733253 Frame.java 1212 8 14 0
