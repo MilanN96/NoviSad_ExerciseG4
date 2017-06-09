@@ -32,4 +32,9 @@ public class BowlingGame {
 		//to be implemented: should return game score 
 		return 0;
 	}
+	public void helperAddAllFrames(BowlingGame bg, int count) throws BowlingException {
+		for (int i = 0; i < count; ++i) {
+			bg.addFrame(new Frame((int) Math.random() * 5, (int) Math.random() * 5));
+		}
+	}
 }

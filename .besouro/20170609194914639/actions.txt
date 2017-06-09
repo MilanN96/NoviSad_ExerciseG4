@@ -74,3 +74,4 @@ RefactoringAction 1497032092098 TestBowling.java REMOVE testSetBonusThrowsFrameA
 RefactoringAction 1497032105137 TestBowling.java ADD void testIfThereAreMoreThan10Frames() METHOD
 RefactoringAction 1497032167487 BowlingGame.java ADD void helperAddAllFrames(BowlingGame, int) METHOD
 EditAction 1497032173215 TestBowling.java 858 5 10 4
+EditAction 1497032177864 BowlingGame.java 1055 5 3 0
