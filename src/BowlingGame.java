@@ -34,7 +34,7 @@ public class BowlingGame {
 	// Returns the game score
 	public int score(){
 		//to be implemented: should return game score 
-		for (int i = 0; i < frames.size(); i++) {
+		/*for (int i = 0; i < frames.size(); i++) {
 
 			
 			if (i != 0) {
@@ -52,8 +52,8 @@ public class BowlingGame {
 				ukScore += bonus.getFirstThrow();
 			else if (frames.get(9).isStrike())
 				ukScore += bonus.score();
-		}
-		return ukScore;*/
+		}*/
+		return ukScore;
 		
 	}
 	

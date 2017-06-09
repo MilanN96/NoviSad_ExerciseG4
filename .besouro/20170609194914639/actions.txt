@@ -103,3 +103,4 @@ UnitTestSessionAction 1497033053534 TestBowling.java OK
 RefactoringAction 1497033103753 TestBowling.java RENAME testBonus()=>void test()/2 METHOD
 RefactoringAction 1497033105313 TestBowling.java RENAME test()/2=>void testScore() METHOD
 EditAction 1497033163023 TestBowling.java 837 5 11 5
+EditAction 1497033166236 BowlingGame.java 1503 5 3 0
