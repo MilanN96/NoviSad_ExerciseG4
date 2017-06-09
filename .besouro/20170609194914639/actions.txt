@@ -47,3 +47,9 @@ RefactoringAction 1497031545789 TestBowling.java ADD void TestSpare2()/2 METHOD
 RefactoringAction 1497031550318 TestBowling.java RENAME TestSpare2()/2=>void TestS() METHOD
 RefactoringAction 1497031555849 TestBowling.java RENAME TestS()=>void TestStrike() METHOD
 EditAction 1497031582557 TestBowling.java 663 4 8 4
+UnitTestCaseAction 1497031586311 TestBowling.java FAIL
+UnitTestSessionAction 1497031586313 TestBowling.java FAIL
+RefactoringAction 1497031592531 TestBowling.java ADD void TestStrike()/2 METHOD
+RefactoringAction 1497031595098 TestBowling.java RENAME TestStrike()/2=>void TestStrike2() METHOD
+RefactoringAction 1497031604132 TestBowling.java REMOVE TestStrike2() METHOD
+EditAction 1497031635978 TestBowling.java 666 4 8 4
