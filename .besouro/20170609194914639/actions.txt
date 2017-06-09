@@ -21,3 +21,8 @@ RefactoringAction 1497031234336 TestBowling.java ADD void Tes FIELD
 RefactoringAction 1497031236379 TestBowling.java RENAME Tes=>void TestSpare FIELD
 RefactoringAction 1497031238904 TestBowling.java RENAME TestSpare=>void TestSpare() METHOD
 EditAction 1497031297202 TestBowling.java 387 2 4 2
+UnitTestCaseAction 1497031300939 TestBowling.java FAIL
+UnitTestSessionAction 1497031300944 TestBowling.java FAIL
+RefactoringAction 1497031310734 TestBowling.java ADD void TestSpare()/2 METHOD
+RefactoringAction 1497031342779 TestBowling.java REMOVE TestSpare()/2 METHOD
+EditAction 1497031369588 Frame.java 806 6 8 0
