@@ -7,3 +7,8 @@ UnitTestCaseAction 1497031069873 TestBowling.java FAIL
 UnitTestSessionAction 1497031069886 TestBowling.java FAIL
 RefactoringAction 1497031109550 TestBowling.java ADD void test()/2 METHOD
 EditAction 1497031148787 Frame.java 745 6 9 0
+CompilationAction 1497031151705 Frame.java
+RefactoringAction 1497031175178 Frame.java ADD int frame FIELD
+RefactoringAction 1497031177715 Frame.java RENAME frame=>int frameScore FIELD
+CompilationAction 1497031187353 Frame.java
+EditAction 1497031191674 TestBowling.java 420 2 4 2
