@@ -50,7 +50,7 @@ public class TestBowling {
 		{
 			bg.addFrame(new Frame(5, 3));
 		}
-		assertEquals(1, bg.getFrames().size());
+		assertEquals(10, bg.getFrames().size());
 	}
 	
 	

@@ -159,3 +159,6 @@ RefactoringAction 1497034482187 TestBowling.java RENAME testFrameIsHigherThan10(
 RefactoringAction 1497034488232 TestBowling.java RENAME testFrame()=>void testFrameover() METHOD
 EditAction 1497034608471 TestBowling.java 1620 8 18 7
 EditAction 1497034611734 BowlingGame.java 1644 7 7 0
+UnitTestCaseAction 1497034615764 TestBowling.java FAIL
+UnitTestSessionAction 1497034615766 TestBowling.java FAIL
+EditAction 1497034648675 TestBowling.java 1621 8 18 7
