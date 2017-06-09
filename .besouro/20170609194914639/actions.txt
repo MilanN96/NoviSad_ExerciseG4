@@ -53,3 +53,4 @@ RefactoringAction 1497031592531 TestBowling.java ADD void TestStrike()/2 METHOD
 RefactoringAction 1497031595098 TestBowling.java RENAME TestStrike()/2=>void TestStrike2() METHOD
 RefactoringAction 1497031604132 TestBowling.java REMOVE TestStrike2() METHOD
 EditAction 1497031635978 TestBowling.java 666 4 8 4
+EditAction 1497031638971 Frame.java 876 6 10 0
